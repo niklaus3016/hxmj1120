@@ -1,0 +1,6 @@
+{
+  "name": "回序梦境",
+  "description": "纯本地私密梦境记录工具，支持时间线、标签复盘、本地统计图谱、涂鸦白板、海报生成与加密备份。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

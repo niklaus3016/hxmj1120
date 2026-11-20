@@ -1,0 +1,14 @@
+node_modules
+dist
+dist-ssr
+*.local
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
+android
+ios
+.vscode/*
+!.vscode/extensions.json
+.idea

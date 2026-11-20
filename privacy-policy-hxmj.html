@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>隐私政策 · 回序梦境</title>
+    <meta name="description" content="回序梦境隐私政策">
+    <meta name="theme-color" content="#eef1f5" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#11121b" media="(prefers-color-scheme: dark)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #eef1f5;
+            --card: #f5f6fa;
+            --inner: rgba(255, 255, 255, 0.7);
+            --title: #0f172a;
+            --text: #475569;
+            --body: #475569;
+            --muted: #94a3b8;
+            --accent: #645f8c;
+            --accent-soft: rgba(100, 95, 140, 0.08);
+            --border: rgba(148, 163, 184, 0.3);
+            --border-soft: rgba(148, 163, 184, 0.22);
+            --shadow: 0 24px 60px -32px rgba(30, 41, 59, 0.28);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #11121b;
+                --card: #191a28;
+                --inner: rgba(255, 255, 255, 0.04);
+                --title: #eceaf6;
+                --text: #b4b1cc;
+                --body: #b4b1cc;
+                --muted: #7e7c9c;
+                --accent: #a8a1d6;
+                --accent-soft: rgba(168, 161, 214, 0.1);
+                --border: rgba(255, 255, 255, 0.1);
+                --border-soft: rgba(255, 255, 255, 0.07);
+                --shadow: 0 24px 60px -30px rgba(0, 0, 0, 0.7);
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+            background-color: var(--bg);
+            background-image:
+                radial-gradient(ellipse at top, rgba(126, 119, 163, 0.14), transparent 58%),
+                radial-gradient(ellipse at bottom right, rgba(108, 136, 166, 0.12), transparent 55%);
+            background-attachment: fixed;
+            color: var(--text);
+            line-height: 1.75;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            min-height: 100vh;
+            padding: 32px 16px 56px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-image:
+                    radial-gradient(ellipse at top, rgba(98, 89, 145, 0.22), transparent 60%),
+                    radial-gradient(ellipse at bottom right, rgba(74, 97, 133, 0.18), transparent 55%);
+            }
+        }
+
+        .page {
+            width: 100%;
+            max-width: 760px;
+            margin: 0 auto;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 26px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+
+        .doc-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 22px 28px;
+            border-bottom: 1px solid var(--border-soft);
+        }
+
+        .doc-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 13px;
+            background: var(--accent-soft);
+            color: var(--accent);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .doc-icon svg {
+            width: 22px;
+            height: 22px;
+        }
+
+        .doc-heading h1 {
+            font-size: 17px;
+            font-weight: 600;
+            color: var(--title);
+            letter-spacing: 0.01em;
+        }
+
+        .doc-heading .version {
+            margin-top: 2px;
+            font-size: 11px;
+            color: var(--muted);
+            letter-spacing: 0.04em;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .doc-body {
+            padding: 28px 32px 36px;
+        }
+
+        .date {
+            text-align: center;
+            font-size: 11px;
+            color: var(--muted);
+            margin-bottom: 20px;
+        }
+
+        .date strong {
+            font-weight: 500;
+            color: var(--muted);
+        }
+
+        .highlight {
+            background: var(--accent-soft);
+            border-left: 4px solid var(--accent);
+            border-radius: 16px;
+            padding: 18px 20px;
+            margin-bottom: 22px;
+        }
+
+        .highlight p {
+            font-size: 13px;
+            line-height: 1.8;
+            color: var(--text);
+            text-align: justify;
+        }
+
+        p {
+            font-size: 13px;
+            line-height: 1.8;
+            color: var(--body);
+            margin-bottom: 8px;
+            text-align: justify;
+        }
+
+        section {
+            margin-top: 28px;
+        }
+
+        h2 {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--title);
+            padding-bottom: 6px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid var(--border-soft);
+            letter-spacing: 0.01em;
+        }
+
+        ol,
+        ul {
+            padding-left: 20px;
+            margin: 8px 0 4px;
+        }
+
+        li {
+            font-size: 13px;
+            line-height: 1.8;
+            color: var(--body);
+            margin-bottom: 8px;
+            text-align: justify;
+        }
+
+        li::marker {
+            color: var(--muted);
+            font-variant-numeric: tabular-nums;
+        }
+
+        strong {
+            font-weight: 600;
+            color: var(--title);
+        }
+
+        .contact {
+            margin-top: 12px;
+            padding: 16px 18px;
+            background: var(--inner);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+        }
+
+        .contact p {
+            margin-bottom: 0;
+            font-size: 13px;
+            color: var(--text);
+        }
+
+        .footer {
+            margin-top: 34px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-soft);
+            text-align: center;
+            color: var(--muted);
+            font-size: 11px;
+            line-height: 1.9;
+        }
+
+        .footer p {
+            text-align: center;
+            font-size: 11px;
+            color: var(--muted);
+            margin-bottom: 2px;
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 12px 10px 32px;
+            }
+
+            .page {
+                border-radius: 22px;
+            }
+
+            .doc-header {
+                padding: 18px 20px;
+            }
+
+            .doc-body {
+                padding: 22px 20px 28px;
+            }
+
+            .highlight {
+                padding: 16px 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="page">
+        <header class="doc-header">
+            <div class="doc-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z" />
+                    <path d="m9 12 2 2 4-4" />
+                </svg>
+            </div>
+            <div class="doc-heading">
+                <h1>隐私政策</h1>
+                <p class="version">版本 1.0</p>
+            </div>
+        </header>
+
+        <div class="doc-body">
+            <p class="date"><strong>生效日期</strong>：2026年11月20日</p>
+
+            <div class="highlight">
+                <p>欢迎使用「回序梦境」（以下简称“本应用”）。本应用由<strong>光年跃迁（温州）科技有限公司</strong>（以下简称“我们”）开发并运营。我们深知个人信息对你的重要性，将严格遵守《中华人民共和国个人信息保护法》等相关法律法规，保护你的个人信息安全。</p>
+            </div>
+
+            <p>本隐私政策旨在说明我们如何收集、使用、存储和保护你在使用本应用过程中产生的信息，以及你对这些信息所享有的权利。请你在使用本应用前仔细阅读并充分理解本政策的全部内容。如对本政策有任何疑问、意见或建议，可通过本政策末尾提供的联系方式与我们联系。</p>
+
+            <section>
+                <h2>一、我们收集的信息</h2>
+                <p>在您使用本应用的过程中，我们仅处理以下信息，以提供、维护和改进服务：</p>
+                <ol>
+                    <li><strong>梦境记录数据</strong>：你在应用内主动录入的梦境标题、正文、复盘、标签、情绪、入梦时段、引导清单答案，以及你主动选择的配图与涂鸦。这些数据是本应用的核心功能内容，仅保存在你的设备本机。</li>
+                    <li><strong>应用设置数据</strong>：主题偏好、协议同意状态等少量本地配置信息。</li>
+                </ol>
+                <p>我们不会收集你的设备标识符、通讯录、位置信息、麦克风或相机内容，也不会接入任何第三方统计、广告或画像服务。</p>
+            </section>
+
+            <section>
+                <h2>二、我们如何使用收集的信息</h2>
+                <p>我们仅在以下合法、正当、必要的范围内使用相关信息：</p>
+                <ol>
+                    <li><strong>提供核心功能</strong>：为你保存与检索梦境、生成标签复盘与统计图谱、绘制涂鸦、生成海报，以及创建和恢复加密备份。</li>
+                    <li><strong>改进使用体验</strong>：情绪分布、词云与相似梦境比对等运算均在你的设备本地完成，不会用于广告投放、用户画像或自动化决策。</li>
+                </ol>
+            </section>
+
+            <section>
+                <h2>三、我们如何共享、转让和公开披露信息</h2>
+                <p>我们郑重承诺，不会向任何第三方共享、转让或公开披露你的梦境数据。开发者无法访问保存在你设备本机私有空间内的记录。</p>
+                <ol>
+                    <li><strong>法定情形</strong>：根据法律法规的规定、行政或司法机关的强制性要求，我们可能会依法配合。</li>
+                    <li><strong>获得明确同意</strong>：在获得你的明确同意后，我们才会向第三方共享你的个人信息。</li>
+                </ol>
+            </section>
+
+            <section>
+                <h2>四、我们如何存储和保护信息</h2>
+                <ol>
+                    <li><strong>存储位置和期限</strong>：你的梦境数据保存在本机应用私有存储空间内，开发者及第三方均无法读取。相关数据会一直保留，直至你在应用内删除、清空全部数据或卸载应用。</li>
+                    <li><strong>安全措施</strong>：加密备份采用 AES-256-GCM 加密和 PBKDF2 密钥派生；梦境界面不包含账号体系，也不具备绕过系统权限读取其他应用数据的能力。</li>
+                    <li><strong>备份密码</strong>：备份密码仅在你的设备内存中用于加密与解密，我们不会保存。密码遗失将无法恢复备份内容，请妥善保管。</li>
+                </ol>
+            </section>
+
+            <section>
+                <h2>五、你的权利</h2>
+                <p>根据相关法律法规，你对你的个人信息享有以下权利：</p>
+                <ol>
+                    <li><strong>访问权</strong>：你可以随时在时间线中查看与管理你的梦境记录及标签。</li>
+                    <li><strong>更正权</strong>：如发现记录存在错误，你可以在应用内随时修改和更正。</li>
+                    <li><strong>删除权</strong>：你可以随时删除单条梦境、移除标签，或使用设置页的「一键清空全部梦境数据」彻底删除本机数据。</li>
+                    <li><strong>数据导出</strong>：你可以随时在设置页生成加密备份包，并由你自行保存或分享。</li>
+                </ol>
+            </section>
+
+            <section>
+                <h2>六、未成年人保护</h2>
+                <p>我们非常重视对未成年人个人信息的保护。如你是未满 14 周岁的未成年人，在使用本应用前，应在监护人的指导下仔细阅读本政策，并征得监护人的同意。如我们发现在未事先获得监护人可验证同意的情况下处理了未成年人的个人信息，将立即删除相关数据。</p>
+            </section>
+
+            <section>
+                <h2>七、本政策的更新</h2>
+                <p>我们可能会根据法律法规的更新、业务的调整或技术的发展，适时对本隐私政策进行修订。修订后的政策将在应用内显著位置公示，并在生效前通过合理方式通知你。如你继续使用本应用，即表示你同意接受修订后的政策。</p>
+            </section>
+
+            <section>
+                <h2>八、联系我们</h2>
+                <p>如你对本隐私政策有任何疑问、意见或建议，或需要行使相关权利，请通过以下方式与我们联系：</p>
+                <div class="contact">
+                    <p><strong>电子邮箱</strong>：Jp112022@163.com</p>
+                </div>
+            </section>
+
+            <div class="footer">
+                <p>感谢你使用回序梦境。</p>
+                <p>版本 1.0</p>
+                <p>© 2026 光年跃迁（温州）科技有限公司 版权所有</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
